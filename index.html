@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Portfolio Helper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI-Powered Portfolio Helper</h1>
+    <form id="portfolioForm">
+      <label>Name:
+        <input type="text" id="name" required />
+      </label>
+      <label>Role:
+        <input type="text" id="role" required />
+      </label>
+      <label>About You:
+        <textarea id="about" rows="4" required></textarea>
+      </label>
+      <label>Skills (comma-separated):
+        <input type="text" id="skills" required />
+      </label>
+      <button type="submit">Generate Portfolio</button>
+    </form>
+
+    <div class="output" id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
